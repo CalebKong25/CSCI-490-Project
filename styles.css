@@ -1,0 +1,35 @@
+<style>
+
+
+.nfl-data-info {
+  color: purple;
+  font-size: 52px; /* Adjust font size as needed */
+  font-weight: bold; /* Makes the text bold */
+  margin-top: 10px; /* Adds spacing above the text */
+  text-align: center; /* Center-aligns the text */
+}
+
+.scores {
+  border-collapse: collapse; /* Clean table borders */
+  flex-shrink: 0; /* Prevent the table from shrinking */
+  width: auto; /* Ensure table size adjusts to content */
+}
+
+.scores th, .scores td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
+
+.scores th {
+  background-color: #f4f4f4;
+}
+
+.highlight {
+  background-color: yellow; /* Highlight table rows */
+  stroke: red; /* Highlight scatterplot points */
+  fill: red;
+  stroke-width: 2px;
+}
+
+</style>
